@@ -1,0 +1,67 @@
+
+.registro{ 
+ 
+  background:  #d6ecf7f3;
+    background-repeat:no-repeat;
+    background-size: 2000px 2000px;
+    width:400px;
+    height:250px;
+    box-Shadow:10px 10px 10px #c7baba;
+    -moz-box-shadow:10px 10px 10px  #d6ecf7f3;
+    -webkit-box-shadow:0px 0px 20px  #d6ecf7f3;
+    margin: 0 auto;
+  }
+
+.registro1{ 
+  
+  background: #d6ecf7f3;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+.inicio_sesion{ 
+    background:url();
+    background-repeat:no-repeat;
+    background-size: 2000px 2000px;
+    width:400px;
+    height:270px;
+    box-Shadow:10px 10px 10px rgb(255, 255, 255);
+    -moz-box-shadow:10px 10px 10px #aa9c9c;
+    -webkit-box-shadow:0px 0px 20px #ffffff;
+    margin: 0 auto;
+  }
+
+.div4{ 
+  
+  background: #d6ecf7f3;
+  background-size:100% 100%;
+}
+
+.registrar{ 
+  color:#000000;
+  background: #d6ecf7f3;
+    background-size:100% 100%;
+  }
+
+  .campos{ 
+    background-color:  #d6ecf7f3;
+    
+  }
+ 
+body{
+  background:#fffffff3;
+  font-family: 'Open sans';
+}
+
+.navbar{
+  background:#a3eaf6f3;
+font-family: 'Open sans';
+
+  position: fixed;
+  
+  width: 100%;
+}
+.footer{
+  background:#a3eaf6f3;
+  font-family: 'Open sans';
+}
