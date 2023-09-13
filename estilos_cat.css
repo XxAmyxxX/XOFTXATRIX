@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffffab;
+}
+
+.wrapper {
+    max-width: 1500px;
+    width: 90%;
+    margin: auto;
+ 
+    padding: 20px; /* Agrega espacio interior para separar los elementos del borde */
+}
+
+.wrapper > h1 {
+    font-size: 60px; /* Tamaño de fuente más grande */
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px auto; /* Centra horizontalmente */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(45deg, #00b7ffb4, #0099ff9a, #94e1ffb4, #0051ffb4, #00f7ffb4); /* Fondo degradado con colores diferentes */
+    -webkit-background-clip: text; /* Aplica el fondo degradado al texto */
+    background-clip: text;
+    color: transparent; /* Hace que el texto sea transparente */
+    -webkit-text-fill-color: transparent; /* Rellena el texto con el color del fondo */
+}
+
+
+.wrapper > h1:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #00000072;
+    margin: 20px 0;
+}
+
+/* Categorias */
+.category {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.category .wrap {
+    width: 25%;
+    margin-left: 2%;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    border-radius: 40px;
+}
+
+.category .wrap img {
+    width: 100%;
+    border-radius: 40px;
+    padding: 10px 0;
+}
+
+.category .wrap a {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background: #81f8d072;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* botones de los wrap */
+.category .wrap a.b1 {
+    background: #b4e6fab4; /* Color para Elemento 1 */
+    color: black; /* Cambia el color de texto si es necesario */
+}
+
+.category .wrap a.b2 {
+    background: #ff78ac9a; /* Color para Elemento 1 */
+    color: black; /* Cambia el color de texto si es necesario */
+}
+
+.category .wrap a.b3 {
+    background: #aaf8b0b4; /* Color para Elemento 1 */
+    color: black; /* Cambia el color de texto si es necesario */
+}
+
+.category .wrap a.b4 {
+    background: #fcc16ab4; /* Color para Elemento 1 */
+    color: black; /* Cambia el color de texto si es necesario */
+}
+
+.category .wrap a.b5 {
+    background: #7af4f8b4; /* Color para Elemento 1 */
+    color: black; /* Cambia el color de texto si es necesario */
+}
+
+
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+    .category .wrap {
+        width: 100%;
+        margin-left: 0;
+    }
+}
