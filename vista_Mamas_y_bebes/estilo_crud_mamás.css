@@ -1,0 +1,101 @@
+/* estilos.css */
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px; 
+    margin: 40px auto 0;
+}
+
+.titulo-container {
+    background-color: #dbb8fa; 
+    margin-bottom: 25px; 
+    width: 100%;
+    border: 1px solid #c3acf5; 
+    text-align: center; 
+}
+
+caption {
+    font-size: 24px; 
+    color: #8b57ff; 
+    font-weight: bold; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    max-width: 100%; 
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #bc70fad7; 
+}
+
+tr:nth-child(even) {
+    background-color: #d7c1fd; 
+}
+
+form {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #a881fc; 
+    border-radius: 5px;
+    background-color: #d4a3ff; 
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* Botón de eliminar y actualizar */
+.boton {
+    width: 68%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #b89cf5; 
+    border-radius: 5px;
+    background-color: #d4a3ff;
+}
+
+input[type="text"],
+select {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #b391fd;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #7e3eff; 
+    color: white;
+    border: none;
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(126, 62, 255, 0.8); 
+}
+
+a {
+    text-decoration: none;
+    color: #8b57ff; 
+
+a:hover {
+    text-decoration: underline;
+}
+}

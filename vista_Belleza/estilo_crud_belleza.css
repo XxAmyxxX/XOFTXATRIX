@@ -1,0 +1,103 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px; 
+    margin: 40px auto 0;
+}
+.titulo-container {
+    background-color: #ff9fef71; 
+    margin-bottom: 25px; /* Espacio hacia abajo entre el título y el contenido de la tabla */
+    width: 100%;
+    border: 1px solid #e307f725; 
+    text-align: center; 
+  }
+  
+  caption {
+    font-size: 24px; 
+    color: #a1179a; 
+    font-weight: bold; /* Negrita del título */
+   
+  }
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    max-width: 100%; 
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #fc75e5bd;
+}
+
+tr:nth-child(even) {
+    background-color: #fdbaf29a;
+}
+
+form {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #e307f725;
+    border-radius: 5px;
+    background-color: #f3a4e69a;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* boton de eliminar y actualizar */
+.boton {
+    width: 68%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #fc9aeb9a;
+    border-radius: 5px;
+    background-color: #fcacee9a;
+}
+
+
+
+input[type="text"],
+select {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #f754db9a;
+    color: white;
+    border: none;
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color:#f754dc63;
+}
+
+a {
+    text-decoration: none;
+    color: #ff009d;
+}
+
+a:hover {
+    text-decoration: underline;
+}

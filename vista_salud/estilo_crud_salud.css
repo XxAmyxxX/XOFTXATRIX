@@ -1,0 +1,103 @@
+/* estilos.css */
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px; 
+    margin: 40px auto 0;
+}
+.titulo-container {
+    background-color: #a7b7ff; 
+    margin-bottom: 25px; /* Espacio hacia abajo entre el título y el contenido de la tabla */
+    width: 100%;
+    border: 1px solid #9a8eff; 
+    text-align: center; 
+  }
+  
+  caption {
+    font-size: 24px; 
+    color: #2d359e; 
+    font-weight: bold; /* Negrita del título */
+   
+  }
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    max-width: 100%; 
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #072bf79d;
+}
+
+tr:nth-child(even) {
+    background-color: #c4e7ff;
+}
+
+form {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #072bf748;
+    border-radius: 5px;
+    background-color: #90adfc;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* boton de eliminar y actualizar */
+.boton {
+    width: 68%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #072bf748;
+    border-radius: 5px;
+    background-color: #90adfc;
+}
+
+
+
+input[type="text"],
+select {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #4c8aff;
+    color: white;
+    border: none;
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4c8bffbd;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
